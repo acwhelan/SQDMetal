@@ -7,6 +7,9 @@ from qiskit_metal.qlibrary.core import QComponent
 import qiskit_metal as metal
 # ?metal.qlibrary.core.QComponent.add_qgeometry
 
+import sys
+sys.path.append('/project/shaas_31/acwhelan/SQDMetal')
+
 design = metal.designs.design_planar.DesignPlanar()
 #gui = metal.MetalGUI(design)
 design.overwrite_enabled = True
