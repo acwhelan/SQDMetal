@@ -1,4 +1,4 @@
-from .SQDMetal.PALACE.Eigenmode_Simulation import PALACE_Eigenmode_Simulation
+from SQDMetal.PALACE.Eigenmode_Simulation import PALACE_Eigenmode_Simulation
 from SQDMetal.PALACE.SQDGmshRenderer import Palace_Gmsh_Renderer
 
 from qiskit_metal import draw, Dict, designs, MetalGUI
